@@ -27,9 +27,9 @@ The Bias Auditor uses four specialized AI agents to analyze your ML pipeline:
 
 ### Installation
 
-1. **Clone or navigate to the project directory:**
+1. **Clone and navigate to the project directory:**
    ```bash
-   cd C:\Users\Mehul\.gemini\antigravity\scratch\bias-auditor
+   cd bias-auditor
    ```
 
 2. **Install dependencies:**
@@ -260,7 +260,3 @@ Contributions welcome! Please:
 ## 📧 Support
 
 For issues or questions, please open a GitHub issue.
-
----
-
-**Built with ❤️ for fairness in AI**
