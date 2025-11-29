@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "run_id": "f4334d92-ae94-4534-bbb9-d3f5d817722f",
+  "timestamp": "2025-11-28T14:29:45.635940Z",
+  "features": {
+    "age": {
+      "association_to_sensitive_attrs": {
+        "age": 0.0,
+        "income": 0.0,
+        "gender": 0.21262479235870257
+      },
+      "proxy_flag": false
+    },
+    "income": {
+      "association_to_sensitive_attrs": {
+        "age": 0.0,
+        "income": 0.0,
+        "gender": 0.44486809824305423
+      },
+      "proxy_flag": true
+    },
+    "gender_Male": {
+      "association_to_sensitive_attrs": {
+        "age": 0.0,
+        "income": 0.0,
+        "gender": 0.9999999999999999
+      },
+      "proxy_flag": true
+    }
+  },
+  "proxy_features": {
+    "age": [],
+    "income": [],
+    "gender": [
+      "income",
+      "gender_Male"
+    ]
+  },
+  "encoding_risks": [],
+  "heatmap_data": {
+    "sensitive_attributes": [
+      "age",
+      "income",
+      "gender"
+    ],
+    "features": [
+      "age",
+      "income",
+      "gender_Male"
+    ],
+    "matrix": [
+      [
+        0.0,
+        0.0,
+        0.21262479235870257
+      ],
+      [
+        0.0,
+        0.0,
+        0.44486809824305423
+      ],
+      [
+        0.0,
+        0.0,
+        0.9999999999999999
+      ]
+    ]
+  },
+  "flags": {
+    "feature_bias_flag": true,
+    "feature_bias_score": 0.4666666666666666,
+    "summary": "2 proxy features detected."
+  }
+}

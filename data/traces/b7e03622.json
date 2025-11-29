@@ -1,0 +1,32 @@
+{
+  "run_id": "b7e03622",
+  "traces": [
+    {
+      "name": "data_auditor",
+      "start_time": 1764431894.3829224,
+      "start_iso": "2025-11-29T15:58:14.382922",
+      "attributes": {},
+      "run_id": "b7e03622",
+      "parent": "audit_pipeline",
+      "error": "Raw data not found for run b7e03622",
+      "error_type": "FileNotFoundError",
+      "end_time": 1764431894.3945577,
+      "end_iso": "2025-11-29T15:58:14.394557",
+      "duration_seconds": 0.011635303497314453
+    },
+    {
+      "name": "audit_pipeline",
+      "start_time": 1764431894.3829224,
+      "start_iso": "2025-11-29T15:58:14.382922",
+      "attributes": {
+        "run_id": "b7e03622"
+      },
+      "run_id": "b7e03622",
+      "error": "Raw data not found for run b7e03622",
+      "error_type": "FileNotFoundError",
+      "end_time": 1764431894.3962314,
+      "end_iso": "2025-11-29T15:58:14.396231",
+      "duration_seconds": 0.013309001922607422
+    }
+  ]
+}

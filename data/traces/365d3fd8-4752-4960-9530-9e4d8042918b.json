@@ -1,0 +1,61 @@
+{
+  "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b",
+  "traces": [
+    {
+      "name": "data_auditor",
+      "start_time": 1764433515.9372964,
+      "start_iso": "2025-11-29T16:25:15.937296",
+      "attributes": {},
+      "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b",
+      "parent": "audit_pipeline",
+      "end_time": 1764433526.3392603,
+      "end_iso": "2025-11-29T16:25:26.339260",
+      "duration_seconds": 10.401963949203491
+    },
+    {
+      "name": "feature_forensics",
+      "start_time": 1764433526.3439057,
+      "start_iso": "2025-11-29T16:25:26.343905",
+      "attributes": {},
+      "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b",
+      "parent": "audit_pipeline",
+      "end_time": 1764433530.3989577,
+      "end_iso": "2025-11-29T16:25:30.398957",
+      "duration_seconds": 4.055052042007446
+    },
+    {
+      "name": "model_behavior",
+      "start_time": 1764433530.4010103,
+      "start_iso": "2025-11-29T16:25:30.402037",
+      "attributes": {},
+      "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b",
+      "parent": "audit_pipeline",
+      "end_time": 1764433536.0969212,
+      "end_iso": "2025-11-29T16:25:36.096921",
+      "duration_seconds": 5.695910930633545
+    },
+    {
+      "name": "bias_aggregator",
+      "start_time": 1764433536.1027055,
+      "start_iso": "2025-11-29T16:25:36.102705",
+      "attributes": {},
+      "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b",
+      "parent": "audit_pipeline",
+      "end_time": 1764433536.1789978,
+      "end_iso": "2025-11-29T16:25:36.178997",
+      "duration_seconds": 0.07629227638244629
+    },
+    {
+      "name": "audit_pipeline",
+      "start_time": 1764433515.9372964,
+      "start_iso": "2025-11-29T16:25:15.937296",
+      "attributes": {
+        "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b"
+      },
+      "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b",
+      "end_time": 1764433536.1810114,
+      "end_iso": "2025-11-29T16:25:36.181011",
+      "duration_seconds": 20.243715047836304
+    }
+  ]
+}

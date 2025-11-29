@@ -1,0 +1,61 @@
+{
+  "run_id": "3e5645f5",
+  "traces": [
+    {
+      "name": "data_auditor",
+      "start_time": 1764431943.7042954,
+      "start_iso": "2025-11-29T15:59:03.704295",
+      "attributes": {},
+      "run_id": "3e5645f5",
+      "parent": "audit_pipeline",
+      "end_time": 1764431950.4700449,
+      "end_iso": "2025-11-29T15:59:10.470044",
+      "duration_seconds": 6.765749454498291
+    },
+    {
+      "name": "feature_forensics",
+      "start_time": 1764431950.4729228,
+      "start_iso": "2025-11-29T15:59:10.472922",
+      "attributes": {},
+      "run_id": "3e5645f5",
+      "parent": "audit_pipeline",
+      "end_time": 1764431952.7624032,
+      "end_iso": "2025-11-29T15:59:12.762403",
+      "duration_seconds": 2.289480447769165
+    },
+    {
+      "name": "model_behavior",
+      "start_time": 1764431952.76393,
+      "start_iso": "2025-11-29T15:59:12.763930",
+      "attributes": {},
+      "run_id": "3e5645f5",
+      "parent": "audit_pipeline",
+      "end_time": 1764431957.0534024,
+      "end_iso": "2025-11-29T15:59:17.053402",
+      "duration_seconds": 4.289472341537476
+    },
+    {
+      "name": "bias_aggregator",
+      "start_time": 1764431957.0564206,
+      "start_iso": "2025-11-29T15:59:17.056420",
+      "attributes": {},
+      "run_id": "3e5645f5",
+      "parent": "audit_pipeline",
+      "end_time": 1764431957.2452135,
+      "end_iso": "2025-11-29T15:59:17.245213",
+      "duration_seconds": 0.18879294395446777
+    },
+    {
+      "name": "audit_pipeline",
+      "start_time": 1764431943.7042954,
+      "start_iso": "2025-11-29T15:59:03.704295",
+      "attributes": {
+        "run_id": "3e5645f5"
+      },
+      "run_id": "3e5645f5",
+      "end_time": 1764431957.2477615,
+      "end_iso": "2025-11-29T15:59:17.247761",
+      "duration_seconds": 13.543466091156006
+    }
+  ]
+}

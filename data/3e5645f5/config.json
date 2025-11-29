@@ -1,0 +1,31 @@
+{
+  "target_column": "label",
+  "sensitive_attributes": [
+    {
+      "name": "gender",
+      "expected_groups": [
+        "Male",
+        "Female"
+      ]
+    },
+    {
+      "name": "race",
+      "expected_groups": [
+        "White",
+        "Black",
+        "Hispanic",
+        "Asian"
+      ]
+    }
+  ],
+  "fairness_thresholds": {
+    "demographic_parity_diff_threshold": 0.1,
+    "equal_opportunity_diff_threshold": 0.1,
+    "equalized_odds_diff_threshold": 0.1,
+    "min_group_proportion_threshold": 0.05,
+    "min_support_for_metrics": 30,
+    "proxy_corr_threshold": 0.3,
+    "counterfactual_change_threshold": 0.1,
+    "label_imbalance_ratio_threshold": 4.0
+  }
+}
