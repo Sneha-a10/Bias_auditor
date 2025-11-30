@@ -1,4 +1,4 @@
-# Agentic Bias Checkpoint Auditor
+# Agentic Bias Checkpoint Auditor.
 
 A powerful tool to identify where bias originates in your ML pipeline by analyzing three critical checkpoints: **Data → Features → Model**.
 
