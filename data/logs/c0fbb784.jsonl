@@ -1,0 +1,14 @@
+{"timestamp": "2025-11-29T16:44:44.464004", "level": "INFO", "logger": "orchestrator", "message": "Starting audit pipeline", "run_id": "c0fbb784"}
+{"timestamp": "2025-11-29T16:44:44.485166", "level": "INFO", "logger": "orchestrator", "message": "Running Data Auditor", "agent": "data_auditor", "run_id": "c0fbb784"}
+{"timestamp": "2025-11-29T16:44:47.942321", "level": "INFO", "logger": "orchestrator", "message": "Data Auditor complete", "agent": "data_auditor", "run_id": "c0fbb784"}
+{"timestamp": "2025-11-29T16:44:47.945343", "level": "INFO", "logger": "orchestrator", "message": "Running Feature Forensics", "agent": "feature_forensics", "run_id": "c0fbb784"}
+{"timestamp": "2025-11-29T16:44:49.849120", "level": "INFO", "logger": "orchestrator", "message": "Feature Forensics complete", "agent": "feature_forensics", "run_id": "c0fbb784"}
+{"timestamp": "2025-11-29T16:44:49.853236", "level": "INFO", "logger": "orchestrator", "message": "Running Model Behavior", "agent": "model_behavior", "run_id": "c0fbb784"}
+{"timestamp": "2025-11-29T16:44:59.179561", "level": "INFO", "logger": "orchestrator", "message": "Model Behavior complete", "agent": "model_behavior", "run_id": "c0fbb784"}
+{"timestamp": "2025-11-29T16:44:59.186075", "level": "INFO", "logger": "orchestrator", "message": "Running Bias Aggregator", "agent": "bias_aggregator", "run_id": "c0fbb784"}
+{"timestamp": "2025-11-29T16:44:59.193200", "level": "INFO", "logger": "bias_aggregator", "message": "Starting bias aggregation", "run_id": "c0fbb784"}
+{"timestamp": "2025-11-29T16:44:59.421353", "level": "INFO", "logger": "bias_aggregator", "message": "Gemini not available, using standard explanation", "run_id": "c0fbb784"}
+{"timestamp": "2025-11-29T16:44:59.429033", "level": "INFO", "logger": "bias_aggregator", "message": "Gemini not available, using standard recommendations", "run_id": "c0fbb784"}
+{"timestamp": "2025-11-29T16:44:59.491366", "level": "INFO", "logger": "bias_aggregator", "message": "Bias aggregation complete", "primary_origin": "MODEL", "run_id": "c0fbb784"}
+{"timestamp": "2025-11-29T16:44:59.513100", "level": "INFO", "logger": "orchestrator", "message": "Bias Aggregator complete", "agent": "bias_aggregator", "run_id": "c0fbb784"}
+{"timestamp": "2025-11-29T16:44:59.579942", "level": "INFO", "logger": "orchestrator", "message": "Audit complete", "run_id": "c0fbb784", "total_time_seconds": 15.079210042953491}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "run_id": "8c2cd2d4-6410-468c-b76f-75b959270730",
+  "timestamp": "2025-11-28T15:24:50.785705Z",
+  "checkpoint_summary": [
+    {
+      "stage": "Data",
+      "status": "Pass",
+      "score": 0.0,
+      "flagged_issues": []
+    },
+    {
+      "stage": "Features",
+      "status": "Pass",
+      "score": 0.15555555555555553,
+      "flagged_issues": [
+        "PROXY_FEATURES"
+      ]
+    },
+    {
+      "stage": "Model",
+      "status": "Fail",
+      "score": 0.9440000000000001,
+      "flagged_issues": [
+        "DEMOGRAPHIC_PARITY_VIOLATION",
+        "EQUALIZED_ODDS_VIOLATION",
+        "EQUAL_OPPORTUNITY_VIOLATION",
+        "COUNTERFACTUAL_SENSITIVITY"
+      ]
+    }
+  ],
+  "bias_origin_verdict": {
+    "primary_origin": "MODEL",
+    "explanation": "Bias primarily manifests in the model's predictions. Fairness violations: demographic_parity, equal_opportunity, equalized_odds. Counterfactual sensitivity detected. The data and features may be relatively unbiased, but the model has learned to make discriminatory predictions."
+  },
+  "evidence": {
+    "data_evidence_ids": [
+      "sensitive_attributes.gender.subgroups",
+      "sensitive_attributes.race.subgroups",
+      "overall.global_label_counts"
+    ],
+    "feature_evidence_ids": [
+      "proxy_features",
+      "heatmap_data"
+    ],
+    "model_evidence_ids": [
+      "by_sensitive_attribute.gender.fairness_gaps",
+      "by_sensitive_attribute.race.fairness_gaps",
+      "counterfactual"
+    ]
+  },
+  "recommended_fixes": {
+    "Features": [
+      "Remove or regularize proxy features for 'gender': gender__Male, gender__Female, income_scaled",
+      "Remove or regularize proxy features for 'race': race__White"
+    ],
+    "Model": [
+      "Consider threshold calibration per subgroup to reduce acceptance rate gaps.",
+      "Apply fairness-aware training methods or constraints to equalize TPR across groups.",
+      "Use post-processing techniques to equalize both TPR and FPR across groups.",
+      "Model predictions are sensitive to sensitive attributes. Consider removing these features or using fairness constraints."
+    ]
+  }
+}

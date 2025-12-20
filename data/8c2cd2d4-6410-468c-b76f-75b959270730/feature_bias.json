@@ -1,0 +1,249 @@
+{
+  "schema_version": "1.0",
+  "run_id": "8c2cd2d4-6410-468c-b76f-75b959270730",
+  "timestamp": "2025-11-28T15:24:39.396480Z",
+  "features": {
+    "gender__Male": {
+      "association_to_sensitive_attrs": {
+        "gender": 1.0,
+        "race": 0.0
+      },
+      "proxy_flag": true
+    },
+    "gender__Female": {
+      "association_to_sensitive_attrs": {
+        "gender": 1.0,
+        "race": 0.0
+      },
+      "proxy_flag": true
+    },
+    "race__White": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.04531957324272794,
+        "race": 0.33513647162835514
+      },
+      "proxy_flag": true
+    },
+    "race__Black": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.025292578777590755,
+        "race": 0.1073543971820412
+      },
+      "proxy_flag": false
+    },
+    "race__Hispanic": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.056390353063004356,
+        "race": 0.28495410045850444
+      },
+      "proxy_flag": false
+    },
+    "race__Asian": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.02936899645040188,
+        "race": 0.1521925430587191
+      },
+      "proxy_flag": false
+    },
+    "age_bucket__18-24": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.04824961788613304,
+        "race": 0.0
+      },
+      "proxy_flag": false
+    },
+    "age_bucket__25-34": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.053128471747620955,
+        "race": 0.0
+      },
+      "proxy_flag": false
+    },
+    "age_bucket__35-44": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.019056951822516318,
+        "race": 0.0
+      },
+      "proxy_flag": false
+    },
+    "age_bucket__45-54": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.014590035604190562,
+        "race": 0.0
+      },
+      "proxy_flag": false
+    },
+    "age_bucket__55+": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.008271702552790241,
+        "race": 0.0
+      },
+      "proxy_flag": false
+    },
+    "region__Urban": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.046582657932863425,
+        "race": 0.0
+      },
+      "proxy_flag": false
+    },
+    "region__Suburban": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.029607426720940296,
+        "race": 0.0
+      },
+      "proxy_flag": false
+    },
+    "region__Rural": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.024744146473805555,
+        "race": 0.0
+      },
+      "proxy_flag": false
+    },
+    "income_scaled": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.5498716969336426,
+        "race": 0.0
+      },
+      "proxy_flag": true
+    },
+    "credit_score_scaled": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.17157125387659666,
+        "race": 0.0
+      },
+      "proxy_flag": false
+    },
+    "employment_years_scaled": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.011742215986765503,
+        "race": 0.0032930420474801547
+      },
+      "proxy_flag": false
+    },
+    "income_x_credit": {
+      "association_to_sensitive_attrs": {
+        "gender": 0.0807954651516673,
+        "race": 0.0
+      },
+      "proxy_flag": false
+    }
+  },
+  "proxy_features": {
+    "gender": [
+      "gender__Male",
+      "gender__Female",
+      "income_scaled"
+    ],
+    "race": [
+      "race__White"
+    ]
+  },
+  "encoding_risks": [],
+  "heatmap_data": {
+    "sensitive_attributes": [
+      "gender",
+      "race"
+    ],
+    "features": [
+      "gender__Male",
+      "gender__Female",
+      "race__White",
+      "race__Black",
+      "race__Hispanic",
+      "race__Asian",
+      "age_bucket__18-24",
+      "age_bucket__25-34",
+      "age_bucket__35-44",
+      "age_bucket__45-54",
+      "age_bucket__55+",
+      "region__Urban",
+      "region__Suburban",
+      "region__Rural",
+      "income_scaled",
+      "credit_score_scaled",
+      "employment_years_scaled",
+      "income_x_credit"
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.04531957324272794,
+        0.33513647162835514
+      ],
+      [
+        0.025292578777590755,
+        0.1073543971820412
+      ],
+      [
+        0.056390353063004356,
+        0.28495410045850444
+      ],
+      [
+        0.02936899645040188,
+        0.1521925430587191
+      ],
+      [
+        0.04824961788613304,
+        0.0
+      ],
+      [
+        0.053128471747620955,
+        0.0
+      ],
+      [
+        0.019056951822516318,
+        0.0
+      ],
+      [
+        0.014590035604190562,
+        0.0
+      ],
+      [
+        0.008271702552790241,
+        0.0
+      ],
+      [
+        0.046582657932863425,
+        0.0
+      ],
+      [
+        0.029607426720940296,
+        0.0
+      ],
+      [
+        0.024744146473805555,
+        0.0
+      ],
+      [
+        0.5498716969336426,
+        0.0
+      ],
+      [
+        0.17157125387659666,
+        0.0
+      ],
+      [
+        0.011742215986765503,
+        0.0032930420474801547
+      ],
+      [
+        0.0807954651516673,
+        0.0
+      ]
+    ]
+  },
+  "flags": {
+    "feature_bias_flag": true,
+    "feature_bias_score": 0.15555555555555553,
+    "summary": "4 proxy features detected."
+  }
+}

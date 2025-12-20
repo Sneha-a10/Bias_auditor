@@ -1,0 +1,61 @@
+{
+  "run_id": "877e4f55-7532-4adb-9e36-6d819297ee24",
+  "traces": [
+    {
+      "name": "data_auditor",
+      "start_time": 1764435717.716811,
+      "start_iso": "2025-11-29T17:01:57.716810",
+      "attributes": {},
+      "run_id": "877e4f55-7532-4adb-9e36-6d819297ee24",
+      "parent": "audit_pipeline",
+      "end_time": 1764435738.0795453,
+      "end_iso": "2025-11-29T17:02:18.079545",
+      "duration_seconds": 20.36273431777954
+    },
+    {
+      "name": "feature_forensics",
+      "start_time": 1764435738.0892708,
+      "start_iso": "2025-11-29T17:02:18.089270",
+      "attributes": {},
+      "run_id": "877e4f55-7532-4adb-9e36-6d819297ee24",
+      "parent": "audit_pipeline",
+      "end_time": 1764435751.6997566,
+      "end_iso": "2025-11-29T17:02:31.699756",
+      "duration_seconds": 13.610485792160034
+    },
+    {
+      "name": "model_behavior",
+      "start_time": 1764435751.705858,
+      "start_iso": "2025-11-29T17:02:31.705858",
+      "attributes": {},
+      "run_id": "877e4f55-7532-4adb-9e36-6d819297ee24",
+      "parent": "audit_pipeline",
+      "end_time": 1764435769.9459395,
+      "end_iso": "2025-11-29T17:02:49.945939",
+      "duration_seconds": 18.240081548690796
+    },
+    {
+      "name": "bias_aggregator",
+      "start_time": 1764435769.9495354,
+      "start_iso": "2025-11-29T17:02:49.950924",
+      "attributes": {},
+      "run_id": "877e4f55-7532-4adb-9e36-6d819297ee24",
+      "parent": "audit_pipeline",
+      "end_time": 1764435770.417402,
+      "end_iso": "2025-11-29T17:02:50.418431",
+      "duration_seconds": 0.4678666591644287
+    },
+    {
+      "name": "audit_pipeline",
+      "start_time": 1764435717.716811,
+      "start_iso": "2025-11-29T17:01:57.716810",
+      "attributes": {
+        "run_id": "877e4f55-7532-4adb-9e36-6d819297ee24"
+      },
+      "run_id": "877e4f55-7532-4adb-9e36-6d819297ee24",
+      "end_time": 1764435770.422503,
+      "end_iso": "2025-11-29T17:02:50.422502",
+      "duration_seconds": 52.70569205284119
+    }
+  ]
+}

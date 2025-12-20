@@ -1,0 +1,256 @@
+{
+  "schema_version": "1.0",
+  "run_id": "f4334d92-ae94-4534-bbb9-d3f5d817722f",
+  "timestamp": "2025-11-28T14:29:27.217173Z",
+  "sensitive_attributes": {
+    "age": {
+      "subgroups": [
+        {
+          "value": "22",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "25",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "29",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 1.0,
+          "underrepresented": false
+        },
+        {
+          "value": "30",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 1.0,
+          "underrepresented": false
+        },
+        {
+          "value": "33",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "34",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 1.0,
+          "underrepresented": false
+        },
+        {
+          "value": "37",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 1.0,
+          "underrepresented": false
+        },
+        {
+          "value": "41",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 1.0,
+          "underrepresented": false
+        },
+        {
+          "value": "43",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 1.0,
+          "underrepresented": false
+        },
+        {
+          "value": "46",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "48",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "51",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "55",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "59",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 1.0,
+          "underrepresented": false
+        },
+        {
+          "value": "62",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        }
+      ],
+      "missing_groups": []
+    },
+    "income": {
+      "subgroups": [
+        {
+          "value": "36000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "37000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "45000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "54000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "61000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "68000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 1.0,
+          "underrepresented": false
+        },
+        {
+          "value": "70000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "76000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 1.0,
+          "underrepresented": false
+        },
+        {
+          "value": "78000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 1.0,
+          "underrepresented": false
+        },
+        {
+          "value": "82000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "90000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 0.0,
+          "underrepresented": false
+        },
+        {
+          "value": "95000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 1.0,
+          "underrepresented": false
+        },
+        {
+          "value": "99000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 1.0,
+          "underrepresented": false
+        },
+        {
+          "value": "105000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 1.0,
+          "underrepresented": false
+        },
+        {
+          "value": "120000",
+          "count": 1,
+          "proportion": 0.06666666666666667,
+          "label_rate": 1.0,
+          "underrepresented": false
+        }
+      ],
+      "missing_groups": []
+    },
+    "gender": {
+      "subgroups": [
+        {
+          "value": "Female",
+          "count": 5,
+          "proportion": 0.3333333333333333,
+          "label_rate": 0.4,
+          "underrepresented": false
+        },
+        {
+          "value": "Male",
+          "count": 10,
+          "proportion": 0.6666666666666666,
+          "label_rate": 0.5,
+          "underrepresented": false
+        }
+      ],
+      "missing_groups": []
+    }
+  },
+  "overall": {
+    "data_bias_flag": false,
+    "data_bias_score": 0.0,
+    "global_label_counts": {
+      "positive": 7,
+      "negative": 8,
+      "ratio": 1.1428571428571428
+    },
+    "summary": "No significant data bias detected."
+  }
+}

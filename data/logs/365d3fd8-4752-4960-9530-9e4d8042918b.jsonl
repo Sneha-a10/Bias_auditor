@@ -1,0 +1,14 @@
+{"timestamp": "2025-11-29T16:25:15.911420", "level": "INFO", "logger": "orchestrator", "message": "Starting audit pipeline", "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b"}
+{"timestamp": "2025-11-29T16:25:15.937296", "level": "INFO", "logger": "orchestrator", "message": "Running Data Auditor", "agent": "data_auditor", "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b"}
+{"timestamp": "2025-11-29T16:25:26.336726", "level": "INFO", "logger": "orchestrator", "message": "Data Auditor complete", "agent": "data_auditor", "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b"}
+{"timestamp": "2025-11-29T16:25:26.343905", "level": "INFO", "logger": "orchestrator", "message": "Running Feature Forensics", "agent": "feature_forensics", "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b"}
+{"timestamp": "2025-11-29T16:25:30.396802", "level": "INFO", "logger": "orchestrator", "message": "Feature Forensics complete", "agent": "feature_forensics", "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b"}
+{"timestamp": "2025-11-29T16:25:30.402037", "level": "INFO", "logger": "orchestrator", "message": "Running Model Behavior", "agent": "model_behavior", "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b"}
+{"timestamp": "2025-11-29T16:25:36.090801", "level": "INFO", "logger": "orchestrator", "message": "Model Behavior complete", "agent": "model_behavior", "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b"}
+{"timestamp": "2025-11-29T16:25:36.102705", "level": "INFO", "logger": "orchestrator", "message": "Running Bias Aggregator", "agent": "bias_aggregator", "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b"}
+{"timestamp": "2025-11-29T16:25:36.113226", "level": "INFO", "logger": "bias_aggregator", "message": "Starting bias aggregation", "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b"}
+{"timestamp": "2025-11-29T16:25:36.167351", "level": "INFO", "logger": "bias_aggregator", "message": "Gemini not available, using standard explanation", "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b"}
+{"timestamp": "2025-11-29T16:25:36.169500", "level": "INFO", "logger": "bias_aggregator", "message": "Gemini not available, using standard recommendations", "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b"}
+{"timestamp": "2025-11-29T16:25:36.174548", "level": "INFO", "logger": "bias_aggregator", "message": "Bias aggregation complete", "primary_origin": "MODEL", "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b"}
+{"timestamp": "2025-11-29T16:25:36.177857", "level": "INFO", "logger": "orchestrator", "message": "Bias Aggregator complete", "agent": "bias_aggregator", "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b"}
+{"timestamp": "2025-11-29T16:25:36.189606", "level": "INFO", "logger": "orchestrator", "message": "Audit complete", "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b", "total_time_seconds": 20.269590616226196}

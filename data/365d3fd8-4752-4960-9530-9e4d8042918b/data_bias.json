@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "run_id": "365d3fd8-4752-4960-9530-9e4d8042918b",
+  "timestamp": "2025-11-29T16:25:16.425329Z",
+  "sensitive_attributes": {
+    "gender": {
+      "subgroups": [
+        {
+          "value": "Female",
+          "count": 288,
+          "proportion": 0.288,
+          "label_rate": 0.40625,
+          "underrepresented": false
+        },
+        {
+          "value": "Male",
+          "count": 712,
+          "proportion": 0.712,
+          "label_rate": 0.7794943820224719,
+          "underrepresented": false
+        }
+      ],
+      "missing_groups": []
+    },
+    "race": {
+      "subgroups": [
+        {
+          "value": "Asian",
+          "count": 97,
+          "proportion": 0.097,
+          "label_rate": 0.5979381443298969,
+          "underrepresented": false
+        },
+        {
+          "value": "Black",
+          "count": 60,
+          "proportion": 0.06,
+          "label_rate": 0.3,
+          "underrepresented": false
+        },
+        {
+          "value": "Hispanic",
+          "count": 273,
+          "proportion": 0.273,
+          "label_rate": 0.5714285714285714,
+          "underrepresented": false
+        },
+        {
+          "value": "White",
+          "count": 570,
+          "proportion": 0.57,
+          "label_rate": 0.7719298245614035,
+          "underrepresented": false
+        }
+      ],
+      "missing_groups": []
+    }
+  },
+  "overall": {
+    "data_bias_flag": false,
+    "data_bias_score": 0.0,
+    "global_label_counts": {
+      "positive": 672,
+      "negative": 328,
+      "ratio": 2.048780487804878
+    },
+    "summary": "No significant data bias detected."
+  }
+}

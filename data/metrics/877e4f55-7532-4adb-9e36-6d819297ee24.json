@@ -1,0 +1,21 @@
+{
+  "run_id": "877e4f55-7532-4adb-9e36-6d819297ee24",
+  "execution_metrics": {
+    "execution_times": {
+      "data_auditor": 20.271203994750977,
+      "feature_forensics": 13.476854801177979,
+      "model_behavior": 17.996108293533325,
+      "bias_aggregator": 0.44249510765075684
+    },
+    "total_duration_seconds": 52.96147871017456
+  },
+  "bias_metrics": {
+    "scores": {
+      "data": 0.0,
+      "features": 0.15555555555555553,
+      "model": 0.92
+    },
+    "primary_origin": "MODEL"
+  },
+  "agent_metrics": {}
+}
