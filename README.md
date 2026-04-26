@@ -74,6 +74,7 @@ The Bias Auditor uses four specialized AI agents to analyze your ML pipeline:
    
    The UI will open in your browser at `http://localhost:8501`
 ## User Case diagram
+```mermaid
 flowchart LR
     %% Actors
     User(["👤 Data Scientist / ML Engineer"])
@@ -128,6 +129,7 @@ flowchart LR
     class User,Gemini,MCP actor;
     class UC1,UC2,UC3,UC4,UC5,UC6,UC7,UC8,UC9,UC10 usecase;
     class System system;
+```
 
 ## 📋 Usage
 
