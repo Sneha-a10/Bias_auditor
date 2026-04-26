@@ -73,6 +73,61 @@ The Bias Auditor uses four specialized AI agents to analyze your ML pipeline:
    ```
    
    The UI will open in your browser at `http://localhost:8501`
+## User Case diagram
+flowchart LR
+    %% Actors
+    User(["👤 Data Scientist / ML Engineer"])
+    Gemini(["🤖 Gemini AI"])
+    MCP(["🌐 MCP Server"])
+
+    %% System Boundary
+    subgraph System["Agentic Bias Checkpoint Auditor"]
+        direction TB
+        
+        %% Use Cases
+        UC1(["Upload Datasets & Model"])
+        UC2(["Configure Audit Parameters"])
+        UC3(["Execute Bias Audit"])
+        
+        UC4(["Analyze Data Bias (Data Auditor)"])
+        UC5(["Detect Feature Proxies (Feature Forensics)"])
+        UC6(["Evaluate Model Fairness (Model Behavior)"])
+        UC7(["Aggregate Bias Verdict (Bias Aggregator)"])
+        
+        UC8(["View Run History"])
+        UC9(["Explore Detailed Reports"])
+        UC10(["Generate Remediation Recommendations"])
+    end
+
+    %% User Interactions
+    User ---> UC1
+    User ---> UC2
+    User ---> UC3
+    User ---> UC8
+    User ---> UC9
+    User ---> UC10
+
+    %% Execution Flow / Includes
+    UC3 -. "<< include >>" .-> UC4
+    UC3 -. "<< include >>" .-> UC5
+    UC3 -. "<< include >>" .-> UC6
+    UC3 -. "<< include >>" .-> UC7
+
+    %% External System Interactions
+    UC7 ---> Gemini
+    UC10 ---> Gemini
+    
+    UC5 ---> MCP
+    UC7 ---> MCP
+
+    %% Styling
+    classDef actor fill:#f3f4f6,stroke:#374151,stroke-width:2px,color:#111827;
+    classDef usecase fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#0c4a6e;
+    classDef system fill:#ffffff,stroke:#9ca3af,stroke-width:2px,stroke-dasharray: 5 5;
+    
+    class User,Gemini,MCP actor;
+    class UC1,UC2,UC3,UC4,UC5,UC6,UC7,UC8,UC9,UC10 usecase;
+    class System system;
 
 ## 📋 Usage
 
