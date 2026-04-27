@@ -11,3 +11,14 @@ services:
         sync: false
       - key: GEMINI_MODEL
         value: gemini-2.0-flash-exp
+
+  - type: web
+    name: bias-auditor-frontend
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash -c "streamlit run frontend/app.py --server.port $PORT --server.address 0.0.0.0"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: BACKEND_URL
+        value: https://bias-auditor.onrender.com

@@ -8,6 +8,7 @@ Features:
 - Detailed run view with tabs
 - Visualization rendering
 """
+import os
 import streamlit as st
 import requests
 import json
@@ -16,8 +17,8 @@ import pandas as pd
 from typing import Dict, Any, Optional
 from io import BytesIO
 
-# Backend API URL
-API_URL = "http://localhost:8001"
+# Backend API URL — override with BACKEND_URL env var in production
+API_URL = os.getenv("BACKEND_URL", "http://localhost:8001")
 
 # Page config
 st.set_page_config(
