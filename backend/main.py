@@ -8,6 +8,11 @@ Endpoints:
 - GET /runs/{run_id}/artifacts/{artifact_type} - Get JSON artifact
 - GET /runs/{run_id}/plots/{plot_name} - Get plot image
 """
+import sys
+import os
+# Ensure backend/ directory is on the path so sibling modules resolve correctly
+sys.path.insert(0, os.path.dirname(__file__))
+
 import uuid
 import json
 import threading

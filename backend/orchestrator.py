@@ -7,6 +7,10 @@ Responsibilities:
 - Handle errors
 - Track execution with observability
 """
+import sys
+import os
+sys.path.insert(0, os.path.dirname(__file__))
+
 import traceback
 import time
 from database import RunDB, RunStatus
